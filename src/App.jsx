@@ -8,6 +8,7 @@ import Notfound from './pages/Notfound'
 import Community from './pages/Community'
 import CommunityDetail from './pages/CommunityDetail'
 import BoardDetail from './pages/BoardDetail'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
         <Route path="/community/:id" element={<CommunityDetail />} />
         <Route path='*' element={<Notfound />} />
       </Routes>
-
+    <Footer/>
     </div>
   )
 }
